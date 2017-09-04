@@ -1,0 +1,14 @@
+{
+    "version": "2.0.3",
+    "homepage": "https://www.splashsoft.de/download/",
+    "url": "https://www.splashsoft.de/?ddownload=276#/RidNacs-2.0.3.zip",
+    "bin": "RidNacs.exe",
+    "checkver": "RidNacs ([\\d\\.]+) \\(ZIP",
+    "license": "http://www.splashsoft.de/ridnacs-freeware-license/",
+    "shortcuts": [
+      [
+        "RidNacs.exe",
+        "RidNacs"
+      ]
+    ]
+}
