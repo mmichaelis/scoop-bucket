@@ -2,6 +2,7 @@
     "version": "2.0.3",
     "homepage": "https://www.splashsoft.de/download/",
     "url": "https://www.splashsoft.de/?ddownload=276#/RidNacs-2.0.3.zip",
+	"hash": "b3d6f743ec73388d8c425edf8b29d381a10a0fe6b58ad7e2955494b5646b1cbb",
     "bin": "RidNacs.exe",
     "checkver": "RidNacs ([\\d\\.]+) \\(ZIP",
     "license": "http://www.splashsoft.de/ridnacs-freeware-license/",
