@@ -1,0 +1,43 @@
+{
+    "homepage": "https://github.com/Xzandro/sw-exporter",
+    "license": "Apache 2.0",
+	"version": "0.0.19",
+	"architecture": {
+		"64bit": {
+			"url": "https://github.com/Xzandro/sw-exporter/releases/download/0.0.19/Summoners.War.Exporter-Portable-0.0.19-win-x64.exe#/Summoners.War.Exporter-Portable-win-x64.exe",
+			"hash": "aaf31528fbbeb51ec25f9e61c7977113ededefc9eabb8e8acf103da1cae3a3d1",
+			"bin": "Summoners.War.Exporter-Portable-win-x64.exe",
+			"shortcuts": [
+				[
+					"Summoners.War.Exporter-Portable-win-x64.exe",
+					"Summoners War Exporter (64bit)"
+				]
+			]
+		},
+		"32bit": {
+			"url": "https://github.com/Xzandro/sw-exporter/releases/download/0.0.19/Summoners.War.Exporter-Portable-0.0.19-win-ia32.exe#/Summoners.War.Exporter-Portable-win-ia32.exe",
+			"hash": "68b03cf92c00fea067ad41b1c4969aecf64d1e64a0430addc82e86ea694c9c92",
+			"bin": "Summoners.War.Exporter-Portable-win-ia32.exe",
+			"shortcuts": [
+				[
+					"Summoners.War.Exporter-Portable-win-ia32.exe",
+					"Summoners War Exporter (32bit)"
+				]
+			]
+		}
+	},
+    "checkver": {
+		"github": "https://github.com/Xzandro/sw-exporter"
+	},
+	"autoupdate": {
+		"64bit": {
+			"url": "https://github.com/Xzandro/sw-exporter/releases/download/$version/Summoners.War.Exporter-Portable-$version-win-x64.exe#/Summoners.War.Exporter-Portable-win-x64.exe"
+		},
+		"32bit": {
+			"url": "https://github.com/Xzandro/sw-exporter/releases/download/$version/Summoners.War.Exporter-Portable-$version-win-ia32.exe#/Summoners.War.Exporter-Portable-win-ia32.exe"
+		},
+		"hash": {
+            "url": "$url.sha256"
+        }
+	}
+}
